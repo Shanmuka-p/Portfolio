@@ -36,7 +36,7 @@ const Hero = () => {
               asChild
               className="bg-corporate-orange hover:bg-corporate-darkOrange text-white px-6 py-3 rounded-xl text-base font-medium transition-all duration-200 hover:-translate-y-1 hover:shadow-lg"
             >
-              <a href="/assets/React_Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a href={`${import.meta.env.BASE_URL}assets/React_Resume.pdf`} target="_blank" rel="noopener noreferrer">
                 Download Résumé
               </a>
             </Button>
@@ -47,7 +47,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-corporate-orange to-corporate-amber rounded-full blur-lg opacity-20"></div>
               <img
-                src="/profile1.jpg"
+                src={`${import.meta.env.BASE_URL}profile1.jpg`}
                 alt="Profile picture of Padala Shanmuka Reddy"
                 className="relative w-64 h-64 rounded-full object-cover border-4 border-corporate-orange shadow-xl animate-float"
               />
