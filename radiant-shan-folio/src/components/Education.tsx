@@ -4,7 +4,7 @@ import React from 'react';
 const Education = () => {
   const educationData = [
     {
-      year: '2023 – 2027',
+      year: '2023 – 2028',
       degree: 'B.Tech in Computer Science Engineering',
       institution: 'Aditya College of Engineering and Technology',
       details: 'CGPA: 8.40 / 10.0'
