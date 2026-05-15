@@ -126,7 +126,7 @@ const Contact = () => {
                   rel="noopener noreferrer"
                   className="text-corporate-orange hover:underline"
                 >
-                  github.com/Shanmuka-p
+                  Github
                 </a>
               </div>
               
@@ -138,7 +138,7 @@ const Contact = () => {
                   rel="noopener noreferrer"
                   className="text-corporate-orange hover:underline"
                 >
-                  linkedin.com/in/padala-shanmuka-reddy
+                  Linkedin
                 </a>
               </div>
             </div>
