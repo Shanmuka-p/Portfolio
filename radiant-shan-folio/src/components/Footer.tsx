@@ -40,6 +40,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="text-corporate-gray hover:text-corporate-orange hover:scale-110 transition-all duration-200"
+            aria-label="Github"
           >
             <Github size={24} />
           </a>
@@ -48,6 +49,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="text-corporate-gray hover:text-corporate-orange hover:scale-110 transition-all duration-200"
+            aria-label="Linkedin"
           >
             <Linkedin size={24} />
           </a>
