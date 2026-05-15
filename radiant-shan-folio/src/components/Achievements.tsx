@@ -6,22 +6,26 @@ const Achievements = () => {
     {
       icon: Code,
       title: 'CodeChef: 1-Star Coder',
-      subtitle: 'Solved 1000+ problems, ranking in the top tier.'
+      subtitle: 'Solved 1000+ problems, ranking in the top tier.',
+      link: 'https://www.codechef.com/users/shanmuka_reddy'
     },
     {
       icon: Code,
       title: 'LeetCode',
-      subtitle: 'Solved 150+ problems.'
+      subtitle: 'Solved 120+ problems.',
+      link: 'https://leetcode.com/u/shanmuka_reddy/'
     },
     {
       icon: Trophy,
       title: 'HackerRank Badges',
-      subtitle: 'Earned 4-Star Badges in Java, SQL.'
+      subtitle: 'Earned 4-Star Badges in Java, SQL.',
+      link: 'https://www.hackerrank.com/profile/shanmuka_reddy'
     },
     {
       icon: Users,
       title: 'Team Collaboration',
-      subtitle: 'Cross-functional team projects & coordination.'
+      subtitle: 'Cross-functional team projects & coordination.',
+      link: 'https://github.com/Shanmuka-p'
     }
   ];
 
