@@ -24,11 +24,11 @@ const Education = () => {
   ];
 
   const certifications = [
-    'Programming in Java – NPTEL',
-    'Full Stack Development using Flutter – Technical Hub',
-    'MongoDB Associate Developer – MongoDB',
-    'API Fundamentals – Postman Student Expert',
-    'GITHUB – Github Foundations'
+    { title: 'Programming in Java – NPTEL', link: 'https://drive.google.com/file/d/1jNp-38Nwva2_Va_imdnn_PCKaY_h6xv3/view?usp=sharing' },
+    { title: 'Full Stack Development using Flutter – Technical Hub', link: 'https://drive.google.com/file/d/1SFtfAEb0fmz34NVkBfuVIPZXrR7yKrfF/view?usp=sharing' },
+    { title: 'MongoDB Associate Developer – MongoDB', link: 'https://drive.google.com/file/d/1_APPfSW9wskXmANJmx-NtUnAXJmPoioc/view?usp=sharing' },
+    { title: 'API Fundamentals – Postman Student Expert', link: 'https://drive.google.com/file/d/1ngxojykgWVBQGq9YJR3S2qvL8U-35756/view?usp=sharing' },
+    { title: 'GITHUB – Github Foundations', link: 'https://drive.google.com/file/d/1HOTq-kTI3OLDhcZNzGGiNT6kDjoDE_L-/view?usp=sharing' }
   ];
 
   return (
@@ -76,12 +76,15 @@ const Education = () => {
             <h3 className="text-xl font-medium text-corporate-black mb-6">Certifications</h3>
             <div className="space-y-3">
               {certifications.map((cert, index) => (
-                <div
+                <a
                   key={index}
-                  className="bg-white text-corporate-darkGray px-4 py-3 rounded-xl text-sm font-medium hover:bg-corporate-orange hover:text-white hover:scale-105 transition-all duration-200 cursor-default shadow-sm border border-gray-200"
+                  href={cert.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block bg-white text-corporate-darkGray px-4 py-3 rounded-xl text-sm font-medium hover:bg-corporate-orange hover:text-white hover:scale-105 transition-all duration-200 cursor-pointer shadow-sm border border-gray-200"
                 >
-                  {cert}
-                </div>
+                  {cert.title}
+                </a>
               ))}
             </div>
           </div>
